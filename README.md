@@ -1,10 +1,10 @@
 ## Title
 
-readme
+ReadMe Gen
 
 ## Description
 
-gathers user input
+this well generate a ReadMe file based on imputs
 
 ## Table of Contants
 
@@ -18,23 +18,23 @@ gathers user input
 
 ## Installation
 
-Install node.js
+install node.js
 
 ## Usage
 
-node.js
+run from the terminal node.js
 
 ## License
 
-
+GNU GPLv3
 
 ## Contributions
 
-none
+Pete Hernandez
 
 ## Test
 
-check your readme 
+verify the items are correct
 
 ## Github
 
@@ -46,7 +46,7 @@ www.google.com
 
 ## Questions
 
- If you have any question about this application or the functionality. Please
- contact me here pete.g.hernandez@gmail.com or my GitHub page www.google.com.
+ If you have any question about this application or the functionality.
+ Please contact me here pete.g.hernandez@gmail.com or my GitHub page www.google.com.
  Thank you for usig my application.
 
