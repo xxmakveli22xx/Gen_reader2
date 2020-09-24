@@ -27,7 +27,7 @@ function generateMarkdown(response) {
   ${response.github}  
 
 ## Github Link
-  ${response.githublink}
+  ${response.githubLink}
 
 `;
 }
