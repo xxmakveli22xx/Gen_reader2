@@ -1,10 +1,10 @@
 ## Title
 
-title
+fun project
 
 ## Description
 
-fun
+makes a custome readem
 
 ## Table of Contants
 
@@ -18,25 +18,35 @@ fun
 
 ## Installation
 
-nothing
+none
 
 ## Usage
 
-fun
+it pulls data from the user
 
 ## License
+
+
+
+## Controbutions
 
 undefined
 
 ## Test
 
-time
+run in  node.js
 
 ## Github
 
 xxmakveli22xx  
-
+    
 ## Github Link
 
-www.yahoo.com
+www.google.com
+
+## Questions
+
+ If you have any question about this application or the functionality. Please
+ contact me here pete.g.hernandez@gmail.com or my GitHub page www.google.com.
+ Thank you for usig my application.
 

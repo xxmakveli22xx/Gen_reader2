@@ -30,9 +30,9 @@ ${response.usage}
 
 ${response.license}
 
-## Controbutions
+## Contributions
 
-${response.contribution}
+${response.contributors}
 
 ## Test
 
@@ -45,6 +45,12 @@ ${response.github}
 ## Github Link
 
 ${response.githubLink}
+
+## Questions
+
+ If you have any question about this application or the functionality. Please
+ contact me here ${response.email} or my GitHub page ${response.githubLink}.
+ Thank you for usig my application.
 
 `;
 }
