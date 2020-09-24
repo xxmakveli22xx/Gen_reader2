@@ -18,10 +18,7 @@ function generateMarkdown(data) {
 ## Usage
   ${response.usage}
 ## License
-  ${response.license}
-[License Badge](http://img.shields.io/badge/License-${response.license}-blue.svg)
-For information about the License visit this link: [License](https://opensource.org/licenses/${response.license})
-## Contribution
+
   ${response.contribution}
 ## Test
   ${response.test}
