@@ -1,10 +1,10 @@
 ## Title
 
-fun project
+readme
 
 ## Description
 
-makes a custome readem
+gathers user input
 
 ## Table of Contants
 
@@ -18,23 +18,23 @@ makes a custome readem
 
 ## Installation
 
-none
+Install node.js
 
 ## Usage
 
-it pulls data from the user
+node.js
 
 ## License
 
 
 
-## Controbutions
+## Contributions
 
-undefined
+none
 
 ## Test
 
-run in  node.js
+check your readme 
 
 ## Github
 
