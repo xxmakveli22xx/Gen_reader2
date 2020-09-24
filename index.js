@@ -1,7 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown.js");
+
 
 const questions = [
     {
@@ -52,16 +53,19 @@ const questions = [
 
 ];
 
+async function init() {
+    try {
+      const data = await inquirer.prompt(questions)
+       fs.writeFileSync("README.md", generateMarkdown(data));
+      console.log("ReadMe is Compeleted README.md");
+
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  init();
 
 
-function runWritefile(){
-    inquirer.prompt(questions).then((responses)=>{
-         writeTofile("README.md",generateMarkdown({...responses}));
-    });
-}
-function writeTofile(filename, data){
-    return fs.writeFileSync (path.join(process.cwd(), filename),data);
-}
 
-runWritefile();
 

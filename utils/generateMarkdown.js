@@ -1,5 +1,5 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
+function generateMarkdown(response) {
   return `
   ## Title
   ${response.title}
@@ -22,6 +22,12 @@ function generateMarkdown(data) {
   ${response.contribution}
 ## Test
   ${response.test}
+
+## Github
+  ${response.github}  
+
+## Github Link
+  ${response.githublink}
 
 `;
 }
