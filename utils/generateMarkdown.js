@@ -28,16 +28,20 @@ ${response.usage}
 
 ## License
 
+${response.license}
+
+## Controbutions
+
 ${response.contribution}
 
 ## Test
 
-${response.test}
+${response.tests}
 
 ## Github
 
 ${response.github}  
-
+    
 ## Github Link
 
 ${response.githubLink}
